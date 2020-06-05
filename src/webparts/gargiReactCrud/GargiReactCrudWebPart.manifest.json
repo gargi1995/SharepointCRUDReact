@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "6a4ebdcb-e649-4293-8ead-5ad537c7ec2c",
+  "alias": "GargiReactCrudWebPart",
+  "componentType": "WebPart",
+
+  
+  "version": "*",
+  "manifestVersion": 2,
+
+  
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "GargiReactCRUD" },
+    "description": { "default": "GargiReactCRUD description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "GargiReactCRUD"
+    }
+  }]
+}
